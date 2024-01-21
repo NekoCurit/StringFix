@@ -1,4 +1,6 @@
 # StringFix
+<h2>注意:这里的String指的是Minecraft中的线 而不是java/其它语言中的String...</h2>
+
 Minecraft 服务器插件插件 刷线机修复
 
 理论兼容全版本 ~~实际上是否兼容不清楚~~
