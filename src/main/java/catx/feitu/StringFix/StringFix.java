@@ -12,16 +12,11 @@ public final class StringFix extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-
     }
     @EventHandler
     public void onBlockFromToEvent(BlockFromToEvent event) {
         if (event.getToBlock().getType() == Material.TRIPWIRE) {
             event.setCancelled(true);
         }
-    }
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
     }
 }
